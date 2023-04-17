@@ -505,6 +505,31 @@ footer{
 }
 
 
+
+.page-contacto{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+
+
+.contacto{
+
+margin-top: 4em;
+margin-bottom: 4em;
+font-family: 'Roboto', sans-serif;
+color: #000000;
+font-weight: 400;
+font-size: 1.5rem;
+
+}
+
+
+
+
+
 .redes-sociales{
   display: inline-block;
             color: #ffffff;
@@ -633,7 +658,7 @@ footer{
 
     .boton-header{
         display: flex;
-        align-item: center;
+        align-items: center;
     }
 
 
