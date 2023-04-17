@@ -130,6 +130,8 @@ body div a{
     color: #ffffff;
     letter-spacing: 0.015em;
     padding-top: 2em;
+    margin-left: 3em;
+    margin-right: 3em;
     
         
 }
@@ -611,8 +613,29 @@ footer{
 
 
     h1{
-        font-size: 4em;
+        font-size: 3em;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        padding-left: 0.8em;
+        padding-right: 0.8em;
     }
+
+
+    p{
+        font-size: 1.8em;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        padding-left: 0.8em;
+        padding-right: 0.8em;
+    }
+
+
+
+    .boton-header{
+        display: flex;
+        align-item: center;
+    }
+
 
    
 
@@ -669,6 +692,7 @@ footer{
                  }
                 
                     .text-izquierda{
+                        width: 100%;
                         flex-direction: column;
                         
                     }
@@ -679,6 +703,7 @@ footer{
                      }
                     
                         .text-derecha{
+                            width: 100%;
                             flex-direction: column;
                             
                         }
@@ -770,9 +795,12 @@ footer{
 
 h3{ color: #000000;
        
-        font-size: 1.3em;
+        font-size: 1.6em;
         line-height: 1.5em;
         text-align: center;  
+        margin-right: 1em;
+        margin-left: 1em;
+        margin-top: 3em;
 }
 
 
@@ -894,7 +922,24 @@ h3{ color: #000000;
 }
 
 
+.carousel-item {
+    background-color: #000000;
+   height: 38em;
+}
 
+
+.texto-experiencias{
+   
+    font-size: 1.4em;
+    line-height: 1.5em;
+    color: #ffffff;
+    letter-spacing: 0.015em;
+    padding-right: 1.1em;
+    padding-left: 1.1em;
     
+    
+        
+}
+
     
 }
