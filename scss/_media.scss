@@ -1,0 +1,402 @@
+html{
+    font-size: 62.5%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+    
+    @media (max-width: 780px){
+
+
+
+    h1{
+        font-size: 3em;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        padding-left: 0.8em;
+        padding-right: 0.8em;
+    }
+
+   
+
+    p{
+        font-size: 1.8em;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        padding-left: 0.8em;
+        padding-right: 0.8em;
+    }
+
+
+
+    .boton-header{
+        display: flex;
+        align-items: center;
+    }
+
+
+   
+
+.botonera{
+        position: sticky;
+       }
+
+    
+    .main-img{
+    @include flex (row, none, none, wrap );
+       
+          
+    }
+    
+    .main-img img{
+    
+    width: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px
+    
+  }
+
+
+
+  .contenedor-figure{
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+
+
+
+
+
+        .contenedor-imagen1y3-intercaladas{
+    
+            flex-direction: column;
+            
+            
+            }
+
+            .contenedor-imagen2-intercaladas{
+    
+                flex-direction: column;
+                
+                }
+
+                .imagen-derecha {
+                    flex-direction: column;
+                    width: 100%;
+                 }
+                
+                    .text-izquierda{
+                        width: 100%;
+                        flex-direction: column;
+                        
+                    }
+
+                    .imagen-izquierda {
+                        flex-direction: column;
+                        width: 100%;
+                     }
+                    
+                        .text-derecha{
+                            width: 100%;
+                            flex-direction: column;
+                            
+                        }
+ .boton-header{
+        @include flex (row, space-between, center, none );
+        padding-left: 1px;
+        padding-right: 1px;
+                        
+        }
+        
+        .boton-header a{
+            font-size: 25px;
+        }
+        
+      
+
+.fila-3 ul {
+    display: block;
+    }                        
+   
+    
+    .texto-tabs{
+        font-size: 2em;
+        padding-right: 0.5em;
+        padding-left: 0.5em;
+    }
+    
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 480px){
+
+   
+    
+    h1{
+
+        font-size: 2.3em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+    }
+    
+    
+    p{
+    
+        font-size: 1.5em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+
+
+
+
+    h2{
+        
+        font-size: 1.8em;
+           
+        margin-top: 3.5em;
+        margin-bottom: 2em;
+        
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    
+
+    h3{ color: $mainColor;
+       
+        font-size: 1.6em;
+         
+        margin-right: 1em;
+        margin-left: 1em;
+        margin-top: 3em;
+    }
+
+
+
+    .texto-relleno{
+       font-size: 1.5em;
+       
+       margin-right: 1em; 
+       margin-left: 30px;
+       margin-right: 30px;
+       margin-bottom: 30px;
+    }
+
+
+
+    .text-derecha {
+    
+       width: 100%;
+    
+    }
+    
+    .text-izquierda {
+       width: 100%;
+        
+    }
+
+
+   .botonera{
+       position: sticky;
+    }
+
+
+
+    .header-responsive picture img{
+
+        @include flex (column, center, center,none );
+      width: 100%;
+      justify-items: center;
+    }
+    
+
+    .header-desktop{
+      display: none;
+    }
+    
+
+    .main-img {
+        width: 100%;
+
+        img{
+          width: 80%;       
+          display: flex;
+          padding-left: 10px;
+          
+        }
+    }
+
+
+     
+
+    .contenedor-figure{
+       flex-wrap: wrap;
+       width: 100%;
+    }
+
+
+    .imagen-derecha {
+      width: 100%;
+    }
+                
+                    
+    .imagen-izquierda {
+       width: 100%;
+    }
+                    
+
+
+    .boton-header{
+      display: flex;
+      flex-direction: column;
+      margin-top: 8em;
+
+      a{
+          font-size: 1.8em;
+          padding-left: 5em;
+          padding-right: 5em;
+          
+       }
+      
+    }
+        
+    
+    .redes-sociales{
+       display: none;
+    }
+
+
+    .fila-3 {
+        ul{
+            display: block;
+        }
+    }  
+
+   
+    
+    .texto-tabs{
+        font-size: 1.5em;
+        margin-left: 0.8em;
+        margin-right: 0.8em; 
+    }
+
+    
+   .mi-lista{
+       margin-top: 4em;
+    }
+
+
+   .carousel-item {
+       background-color: $mainColor;
+       height: 25em;
+    }
+
+
+    .texto-experiencias{
+   
+        font-size: 1.4em;
+        line-height: 1.5em;
+        color: $keyColor;
+        letter-spacing: 0.015em;
+        padding-right: 1.1em;
+        padding-left: 1.1em;
+    
+}
+  
+
+
+.my-form {
+    label {
+      margin-left: 120px;
+      margin-bottom: 5px;
+      font-family: $mainFont;
+      font-size: 1.3em;
+    }
+
+    input {
+        width: 50%;
+        margin: 10px auto;
+    }
+
+    textarea{
+        width: 50%;
+        margin: auto;
+        margin-top: 20px;
+        font-family: $mainFont;
+        font-size: 1.3em;
+    }
+
+    
+  }
+
+
+
+
+
+
+.btn-primary {
+    background-color: $mainColor;
+    width: 50%;
+    margin: auto;
+    margin-left: 120px;
+    margin-bottom: 300px;
+    margin-top: 20px;
+
+
+        @include textos ($mainFont,1em, 1.5em, 0.025rem, center, normal, $fontRegular, $keyColor);
+    
+           background-color:$mainColor;
+           text-decoration: none;
+           padding: 0.6em 0.6em;     
+           align-items: center;
+           cursor: pointer;
+        
+           
+    
+       
+
+
+    &:hover{
+        background-color: $btn-primary-hover-color;
+        border: none;
+        color: $mainColor;
+    }
+  
+}
+
+
+
+.contenedor-figure{
+    
+   
+    figcaption{
+    
+       font-size: 1.5em;
+                
+    }
+}
+
+    
+}

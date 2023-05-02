@@ -1,0 +1,53 @@
+html{
+    font-size: 62.5%;
+}
+
+
+
+.botonera{
+    background-color: $mainColor;
+    font-family: $mainFont;
+    height: auto;
+    position: sticky;
+    img{
+        width: auto;
+    }    
+        li a{
+           color: $keyColor;
+           text-decoration:none;
+           font-weight: $fontRegular;
+           font-size: 2em;
+
+           &:hover , &:hover{
+               color: $secondaryColor;
+             
+            }
+        }
+    
+}
+
+   
+  
+
+   nav{ 
+    
+       @include flex (row, space-between, center, none );
+       
+
+        ul{
+         list-style: none;
+       
+         padding: 4px 30px;   
+         display: flex;
+          
+          padding-top: 20px;
+          padding-bottom: 20px;
+        
+
+           li{
+              margin-left: 30px;
+           }
+        }
+   }
+   
+   

@@ -43,20 +43,15 @@ flex-direction: column;
     
 }
 
-
+.header-responsive picture img{
+    display: none;
+}
 
 
 header a:hover{
     color: #000000;
     background-color: #FF916E;
 }
-
-
-
-
-
-
-
 
 
 
@@ -67,11 +62,6 @@ background-color: #F6F6F6;
 body div a{
     color: #000000;
 }
-
-
-
-
-
 
 
 
@@ -103,7 +93,7 @@ body div a{
         color: #FF916E;
        
        }
-  
+ 
 
 .bg-black{
     background-color: #ffffff;
@@ -181,9 +171,7 @@ nav{
 
 
           
-
-
-         
+                
 
 
 
@@ -307,6 +295,10 @@ h3{ color: #000000;
         letter-spacing: 0.015em;
 }
     
+
+
+
+
 
 
 .tab-content{
@@ -619,11 +611,12 @@ font-size: 1.5rem;
  
 
 
-.header-responsive picture img{
-    display: none;
-}
 
 
+
+
+
+es de las tabs
 .nav-pills{
     height: 80px;
     align-items: center;
@@ -631,6 +624,40 @@ font-size: 1.5rem;
     justify-content: space-around;
     
    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -677,6 +704,8 @@ font-size: 1.5rem;
     display: flex;    
     flex-direction: row;
     flex-wrap: wrap;
+
+    
     
           
     }
@@ -781,7 +810,7 @@ font-size: 1.5rem;
 
 
 
-@media ( width <320px){
+@media ( width <480px){
 
 
 
@@ -970,5 +999,7 @@ h3{ color: #000000;
         
 }
 
+
+    
     
 }

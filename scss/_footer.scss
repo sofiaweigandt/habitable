@@ -1,0 +1,117 @@
+html{
+    font-size: 62.5%;
+}
+
+
+
+.page-contacto{
+@include flex (row, space-around, center, wrap );
+
+}
+
+
+
+.contacto{
+    margin-top: 4em;
+    margin-bottom: 4em;
+    font-family: $mainFont;
+    color: $mainColor;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+
+
+
+
+.redes-sociales{
+  display: inline-block;
+  color: $keyColor;
+  font-size: 2rem;
+  font-family: $mainFont;  
+}
+    
+
+
+   
+
+footer {
+
+    @include flex (column, space-between, none, none );
+    
+    
+    
+    width: 100%;
+    font-family: $mainFont;
+    background-color: $mainColor;
+    font-weight: 400;
+    font-size: 2rem;
+
+
+
+      
+    ul{
+        display: flex;
+        padding: 4px 30px;   
+        list-style: none;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    
+    
+    
+      li{
+           margin-left: 30px;
+           display: flex;
+     
+
+
+            a{
+                color: $keyColor; 
+                font-size: 2rem;
+                text-decoration:none; 
+                display: flex;
+            
+                &:hover{
+                    color: $secondaryColor;
+                }
+             
+            }
+                              
+        }
+    }
+
+}
+    
+ 
+
+    
+.fila-1{
+
+    @include flex (row, space-between, none, wrap );
+  
+    padding-left: 20px;
+    padding-right: 20px;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    
+    
+      
+}
+
+.fila-2{
+    @include flex (row, space-between, none, wrap );
+    
+}
+
+
+.fila-3{
+
+    @include flex (row, space-between, none, wrap );
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
