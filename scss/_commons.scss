@@ -3,7 +3,7 @@ html{
 }
 
 *{
-    box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 
@@ -59,9 +59,7 @@ h3{
 
     @include textos ($mainFont, 2em, 1.5em, 0.015em, center, normal, $fontRegular, $mainColor);
    margin-bottom: 20px;
-   margin-left: 200px;
-   margin-right: 200px;
-}
+   }
 
 
 

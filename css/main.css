@@ -3,6 +3,10 @@ html {
   font-size: 62.5%;
 }
 
+* {
+  overflow-x: hidden;
+}
+
 .botonera {
   background-color: #000000;
   font-family: "Roboto", sans-serif;
@@ -45,7 +49,7 @@ html {
 }
 
 * {
-  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -117,8 +121,6 @@ h3 {
   font-weight: 400;
   color: #000000;
   margin-bottom: 20px;
-  margin-left: 200px;
-  margin-right: 200px;
 }
 
 header img {
@@ -401,6 +403,10 @@ html {
   font-size: 62.5%;
 }
 
+* {
+  overflow-x: hidden;
+}
+
 .page-contacto {
   display: flex;
   flex-direction: row;
@@ -490,10 +496,6 @@ footer ul li a:hover {
 
 html {
   font-size: 62.5%;
-}
-
-* {
-  box-sizing: border-box;
 }
 
 @media (max-width: 780px) {
@@ -610,15 +612,13 @@ html {
   .texto-relleno {
     font-size: 1.5em;
     margin-right: 1em;
-    margin-left: 30px;
-    margin-right: 30px;
     margin-bottom: 30px;
   }
   .text-derecha {
-    width: 100%;
+    width: 98%;
   }
   .text-izquierda {
-    width: 100%;
+    width: 98%;
   }
   .botonera {
     position: sticky;
@@ -746,7 +746,7 @@ html {
 }
 .main-img img {
   animation-name: textAlpha;
-  animation-duration: 6s;
+  animation-duration: 5s;
 }
 
 /*# sourceMappingURL=main.css.map */
