@@ -6,37 +6,10 @@ html{
     overflow-x: hidden;
 }
 
-.page-contacto{
-@include flex (row, space-around, center, wrap );
-
-}
 
 
 
-.contacto{
-    margin-top: 4em;
-    margin-bottom: 4em;
-    font-family: $mainFont;
-    color: $mainColor;
-    font-weight: 400;
-    font-size: 1.5rem;
-}
-
-
-
-
-
-.redes-sociales{
-  display: inline-block;
-  color: $keyColor;
-  font-size: 2rem;
-  font-family: $mainFont;  
   
-}
-    
-
-
-   
 
 footer {
 
@@ -55,15 +28,15 @@ footer {
       
     ul{
         display: flex;
-        padding: 4px 30px;   
+        padding: 0.25em 1.875em;   
         list-style: none;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        padding-top: 1.25em;
+        padding-bottom: 1.25em;
     
     
     
       li{
-           margin-left: 30px;
+           margin-left: 1.875em;
            display: flex;
      
 
@@ -92,16 +65,30 @@ footer {
 
     @include flex (row, space-between, none, wrap );
   
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
 
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 1.875em;
+    padding-bottom: 1.875em;   
     
+
     
     
       
 }
+
+.redes-sociales{
+    display: inline-block;
+    color: $keyColor;
+    font-size: 2rem;
+    font-family: $mainFont;  
+ 
+  }
+      
+
+
+
+
 
 .fila-2{
     @include flex (row, space-between, none, wrap );
@@ -112,9 +99,8 @@ footer {
 .fila-3{
 
     @include flex (row, space-between, none, wrap );
-    
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 1.875em;
+    padding-bottom: 1.875em;
     
 }
 

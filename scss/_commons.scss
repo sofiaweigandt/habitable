@@ -22,7 +22,7 @@ p{
 
     @include textos ($mainFont, 2.5em, 1.5em,0.015em, center, normal, $fontRegular, $mainColor);
     
-    padding-top: 0px;
+    
     padding-bottom: 3em;
     padding-left: 7em;
     padding-right: 7em;
@@ -58,7 +58,7 @@ h3{
 .texto-relleno{
 
     @include textos ($mainFont, 2em, 1.5em, 0.015em, center, normal, $fontRegular, $mainColor);
-   margin-bottom: 20px;
+   margin-bottom: 1.25em;
    }
 
 
@@ -77,10 +77,10 @@ header{
 .boton-header
    
     {
-        margin-top: 150px;
-        margin-bottom: 150px;
-        padding-left: 200px;
-        padding-right: 200px;
+        margin-top: 9.3em;
+        margin-bottom: 25em;
+        padding-left: 12.5em;
+        padding-right: 12.5em;
         display: flex;
         flex-direction: column;
        
@@ -161,9 +161,8 @@ body{
  
 .texto-experiencias{
 
-    @include textos ($mainFont, 2em, 1.5em, 0.015em, center, normal, $fontRegular, $keyColor);
-
-    padding-top: 2em;
+    @include textos ($mainFont, 2em, 1.5em, 0.015em, top, center, $fontRegular, $keyColor);
+    margin-top: 2em;
     margin-left: 3em;
     margin-right: 3em;        
 }
@@ -316,8 +315,8 @@ body{
         @include textos ($mainFont, 2em, 1.5em, 0.015em, center, normal, $fontRegular, $mainColor);
         
         align-items: center;
-        margin-bottom: 15px;
-        margin-top: 15px;
+        margin-bottom: 1em;
+        margin-top: 1em;
         
     }
 }
@@ -328,21 +327,22 @@ body{
 
   .my-form {
     label {
-      margin-left: 365px;
-      margin-bottom: 5px;
+      
+      margin-left: 24.4em;
+      margin-bottom: 0.3em;
       font-family: $mainFont;
       font-size: 1.5em;
     }
 
     input {
         width: 50%;
-        margin: 10px auto;
+        margin: 0.6em auto;
     }
 
     textarea{
         width: 50%;
         margin: auto;
-        margin-top: 20px;
+        margin-top: 1.25em;
         font-family: $mainFont;
         font-size: 1.5em;
     }
@@ -357,10 +357,9 @@ body{
   .btn-primary {
     background-color: $mainColor;
     width: 50%;
-    margin: auto;
-    margin-left: 365px;
-    margin-bottom: 300px;
-    margin-top: 20px;
+    margin-left: 14.7em;
+    margin-bottom: 18em;
+    margin-top: 1.2em;
 
 
         @include textos ($mainFont,2.5em, 1.5em, 0.025rem, center, normal, $fontRegular, $keyColor);
@@ -388,3 +387,19 @@ body{
   
 }
   
+.page-contacto{
+    @include flex (row, space-around, center, wrap );
+    
+    }
+
+    .contacto{
+        margin-top: 4em;
+        margin-bottom: 4em;
+        font-family: $mainFont;
+        color: $mainColor;
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+    
+    
+    

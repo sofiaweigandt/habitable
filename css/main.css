@@ -35,13 +35,13 @@ nav {
 }
 nav ul {
   list-style: none;
-  padding: 4px 30px;
+  padding: 0.25em 1.875em;
   display: flex;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
 }
 nav ul li {
-  margin-left: 30px;
+  margin-left: 1.875em;
 }
 
 html {
@@ -76,7 +76,6 @@ p {
   font-style: normal;
   font-weight: 400;
   color: #000000;
-  padding-top: 0px;
   padding-bottom: 3em;
   padding-left: 7em;
   padding-right: 7em;
@@ -120,7 +119,7 @@ h3 {
   font-style: normal;
   font-weight: 400;
   color: #000000;
-  margin-bottom: 20px;
+  margin-bottom: 1.25em;
 }
 
 header img {
@@ -128,10 +127,10 @@ header img {
 }
 
 .boton-header {
-  margin-top: 150px;
-  margin-bottom: 150px;
-  padding-left: 200px;
-  padding-right: 200px;
+  margin-top: 9.3em;
+  margin-bottom: 25em;
+  padding-left: 12.5em;
+  padding-right: 12.5em;
   display: flex;
   flex-direction: column;
 }
@@ -200,11 +199,11 @@ body div a {
   font-size: 2em;
   line-height: 1.5em;
   letter-spacing: 0.015em;
-  text-align: center;
-  font-style: normal;
+  text-align: top;
+  font-style: center;
   font-weight: 400;
   color: #FFFFFF;
-  padding-top: 2em;
+  margin-top: 2em;
   margin-left: 3em;
   margin-right: 3em;
 }
@@ -343,24 +342,24 @@ body div a {
   font-weight: 400;
   color: #000000;
   align-items: center;
-  margin-bottom: 15px;
-  margin-top: 15px;
+  margin-bottom: 1em;
+  margin-top: 1em;
 }
 
 .my-form label {
-  margin-left: 365px;
-  margin-bottom: 5px;
+  margin-left: 24.4em;
+  margin-bottom: 0.3em;
   font-family: "Roboto", sans-serif;
   font-size: 1.5em;
 }
 .my-form input {
   width: 50%;
-  margin: 10px auto;
+  margin: 0.6em auto;
 }
 .my-form textarea {
   width: 50%;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 1.25em;
   font-family: "Roboto", sans-serif;
   font-size: 1.5em;
 }
@@ -368,10 +367,9 @@ body div a {
 .btn-primary {
   background-color: #000000;
   width: 50%;
-  margin: auto;
-  margin-left: 365px;
-  margin-bottom: 300px;
-  margin-top: 20px;
+  margin-left: 14.7em;
+  margin-bottom: 18em;
+  margin-top: 1.2em;
   font-family: "Roboto", sans-serif;
   font-size: 2.5em;
   line-height: 1.5em;
@@ -399,14 +397,6 @@ body div a {
   border: none;
 }
 
-html {
-  font-size: 62.5%;
-}
-
-* {
-  overflow-x: hidden;
-}
-
 .page-contacto {
   display: flex;
   flex-direction: row;
@@ -424,11 +414,12 @@ html {
   font-size: 1.5rem;
 }
 
-.redes-sociales {
-  display: inline-block;
-  color: #FFFFFF;
-  font-size: 2rem;
-  font-family: "Roboto", sans-serif;
+html {
+  font-size: 62.5%;
+}
+
+* {
+  overflow-x: hidden;
 }
 
 footer {
@@ -445,13 +436,13 @@ footer {
 }
 footer ul {
   display: flex;
-  padding: 4px 30px;
+  padding: 0.25em 1.875em;
   list-style: none;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
 }
 footer ul li {
-  margin-left: 30px;
+  margin-left: 1.875em;
   display: flex;
 }
 footer ul li a {
@@ -470,10 +461,17 @@ footer ul li a:hover {
   justify-content: space-between;
   align-items: none;
   flex-wrap: wrap;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-left: 1.25em;
+  padding-right: 1.25em;
+  padding-top: 1.875em;
+  padding-bottom: 1.875em;
+}
+
+.redes-sociales {
+  display: inline-block;
+  color: #FFFFFF;
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
 }
 
 .fila-2 {
@@ -490,8 +488,8 @@ footer ul li a:hover {
   justify-content: space-between;
   align-items: none;
   flex-wrap: wrap;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 1.875em;
+  padding-bottom: 1.875em;
 }
 
 html {
@@ -679,7 +677,7 @@ html {
   }
   .carousel-item {
     background-color: #000000;
-    height: 25em;
+    height: 50vh;
   }
   .texto-experiencias {
     font-size: 1.4em;
@@ -688,7 +686,7 @@ html {
     letter-spacing: 0.015em;
     padding-right: 1.1em;
     padding-left: 1.1em;
-    height: auto;
+    margin-top: 1em;
   }
   .my-form label {
     margin-left: 120px;
