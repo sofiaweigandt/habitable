@@ -328,7 +328,7 @@ body{
   .my-form {
     label {
       
-      margin-left: 24.4em;
+      margin-left: 366px;
       margin-bottom: 0.3em;
       font-family: $mainFont;
       font-size: 1.5em;
@@ -357,7 +357,7 @@ body{
   .btn-primary {
     background-color: $mainColor;
     width: 50%;
-    margin-left: 14.7em;
+    margin-left: 366px;
     margin-bottom: 18em;
     margin-top: 1.2em;
 
@@ -392,14 +392,13 @@ body{
     
     }
 
-    .contacto{
-        margin-top: 4em;
-        margin-bottom: 4em;
-        font-family: $mainFont;
-        color: $mainColor;
-        font-weight: 400;
-        font-size: 1.5rem;
-    }
-    
-    
-    
+.contacto{
+    margin-top: 4em;
+    margin-bottom: 4em;
+    font-family: $mainFont;
+    color: $mainColor;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+
