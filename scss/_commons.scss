@@ -327,7 +327,8 @@ body{
 
   .my-form {
     label {
-      
+      width: 50%;
+      margin: auto;
       margin-left: 372px;
       margin-bottom: 0.3em;
       font-family: $mainFont;
@@ -357,8 +358,9 @@ body{
   .btn-primary {
     background-color: $mainColor;
     width: 50%;
-    margin-left: 372px;
-    margin-bottom: 18em;
+    margin: auto;
+    margin-left: 370px;
+    margin-bottom: 5em;
     margin-top: 1.2em;
 
 
