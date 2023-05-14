@@ -368,13 +368,16 @@ body div a {
   margin-left: 15.2em;
 }
 
-.btn-primary {
-  background-color: #000000;
+.boton-header-form {
   width: 50%;
-  margin: auto;
-  margin-left: 15.2em;
-  margin-bottom: 5em;
-  margin-top: 1.2em;
+  margin-left: 36.8em;
+  margin-bottom: 15em;
+  margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+.boton-header-form a {
   font-family: "Roboto", sans-serif;
   font-size: 2.5em;
   line-height: 1.5em;
@@ -389,30 +392,25 @@ body div a {
   align-items: center;
   cursor: pointer;
 }
-.btn-primary a {
-  color: #FFFFFF;
-  text-decoration: none;
-  border: none;
-}
-.btn-primary a:hover {
+.boton-header-form a:hover {
   color: #000000;
-}
-.btn-primary:hover {
   background-color: #FF916E;
-  border: none;
 }
 
 .page-contacto {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center;
+  align-items: none;
   flex-wrap: wrap;
 }
 
 .contacto {
+  display: inline-block;
   margin-top: 4em;
   margin-bottom: 4em;
+  margin-right: 20px;
+  margin-left: 20px;
   font-family: "Roboto", sans-serif;
   color: #000000;
   font-weight: 400;
@@ -477,6 +475,7 @@ footer ul li a:hover {
   color: #FFFFFF;
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
+  align-items: center;
 }
 
 .fila-2 {
@@ -666,6 +665,19 @@ html {
     padding-left: 5em;
     padding-right: 5em;
   }
+  .boton-header-form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5em;
+    width: 50%;
+    margin-left: 12em;
+    margin-bottom: 7em;
+  }
+  .boton-header-form a {
+    font-size: 1.8em;
+    padding-left: 5em;
+    padding-right: 5em;
+  }
   .redes-sociales {
     display: none;
   }
@@ -710,34 +722,13 @@ html {
     font-family: "Roboto", sans-serif;
     font-size: 1.3em;
   }
-  .btn-primary {
-    background-color: #000000;
-    width: 50%;
-    margin: auto;
-    margin-left: 112px;
-    margin-bottom: 12em;
-    margin-top: 20px;
-    font-family: "Roboto", sans-serif;
-    font-size: 1em;
-    line-height: 1.5em;
-    letter-spacing: 0.025rem;
-    text-align: center;
-    font-style: normal;
-    font-weight: 400;
-    color: #FFFFFF;
-    background-color: #000000;
-    text-decoration: none;
-    padding: 0.6em 0.6em;
-    align-items: center;
-    cursor: pointer;
-  }
-  .btn-primary:hover {
-    background-color: #FF916E;
-    border: none;
-    color: #000000;
-  }
   .contenedor-figure figcaption {
     font-size: 1.5em;
+  }
+  .contacto {
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 1.2rem;
   }
 }
 @keyframes textAlpha {
