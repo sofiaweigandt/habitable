@@ -94,7 +94,8 @@ footer {
 
 .fila-2{
     @include flex (row, space-between, center, wrap );
-    
+    width: 100%;
+    margin-left: 1%;
     
 }
 
@@ -106,6 +107,10 @@ footer {
     padding-top: 1.875em;
     padding-bottom: 1.875em;
 
+
+    img{
+        margin-left: 10px;
+    }
     
 }
 

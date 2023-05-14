@@ -518,6 +518,8 @@ footer ul li a:hover {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  width: 100%;
+  margin-left: 1%;
 }
 
 .fila-3 {
@@ -528,6 +530,9 @@ footer ul li a:hover {
   flex-wrap: wrap;
   padding-top: 1.875em;
   padding-bottom: 1.875em;
+}
+.fila-3 img {
+  margin-left: 10px;
 }
 
 html {
