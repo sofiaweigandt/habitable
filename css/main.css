@@ -510,14 +510,13 @@ footer ul li a:hover {
   color: #FFFFFF;
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
-  align-items: center;
 }
 
 .fila-2 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: none;
+  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -658,10 +657,16 @@ html {
     margin-bottom: 30px;
   }
   .text-derecha {
-    width: 98%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.5em;
   }
   .text-izquierda {
-    width: 98%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 1.5em;
   }
   .botonera {
     position: sticky;

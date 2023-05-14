@@ -207,13 +207,19 @@ html{
 
     .text-derecha {
     
-       width: 98%;
+       width: 90%;
+       margin-left: 5%;
+       margin-right: 5%;
+       font-size: 1.5em;
        
            
     }
     
     .text-izquierda {
-       width: 98%;
+        width: 90%;
+       margin-left: 5%;
+       margin-right: 5%;
+       font-size: 1.5em;
        
     }
 
@@ -244,7 +250,6 @@ html{
           width: 80%;       
           display: flex;
           padding-left: 10px;
-          
         }
     }
 

@@ -79,10 +79,11 @@ footer {
 
 .redes-sociales{
     display: inline-block;
+
     color: $keyColor;
     font-size: 2rem;
     font-family: $mainFont;
-    align-items: center  ;
+
  
   }
       
@@ -92,7 +93,8 @@ footer {
 
 
 .fila-2{
-    @include flex (row, space-between, none, wrap );
+    @include flex (row, space-between, center, wrap );
+    
     
 }
 
@@ -100,8 +102,10 @@ footer {
 .fila-3{
 
     @include flex (row, space-between, none, wrap );
+    
     padding-top: 1.875em;
     padding-bottom: 1.875em;
+
     
 }
 
