@@ -327,9 +327,9 @@ body{
 
   .my-form {
     label {
-      width: 50%;
-      margin: auto;
-      margin-left: 372px;
+      
+        
+      margin-left: 25.2em;
       margin-bottom: 0.3em;
       font-family: $mainFont;
       font-size: 1.5em;
@@ -353,6 +353,7 @@ body{
 
   .form-label{
     
+      margin-left: 15.2em;
   }
 
 
@@ -361,7 +362,7 @@ body{
     background-color: $mainColor;
     width: 50%;
     margin: auto;
-    margin-left: 370px;
+    margin-left: 15.2em;
     margin-bottom: 5em;
     margin-top: 1.2em;
 
