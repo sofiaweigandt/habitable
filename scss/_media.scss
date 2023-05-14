@@ -87,7 +87,9 @@ html{
                  }
                 
                     .text-izquierda{
-                        width: 100%;
+                        width: 90%;
+                        margin-left: 5%;
+                        margin-right: 5%;
                         flex-direction: column;
                         
                     }
@@ -98,7 +100,9 @@ html{
                      }
                     
                         .text-derecha{
-                            width: 100%;
+                            width: 90%;
+                            margin-left: 5%;
+                            margin-right: 5%;
                             flex-direction: column;
                             
                         }
@@ -193,8 +197,9 @@ html{
 
     .texto-relleno{
        font-size: 1.5em;
-    
-       margin-right: 1em; 
+       width: 90%;
+       margin-right: 5%;
+       margin-left: 5%; 
        margin-bottom: 30px;
     }
 
@@ -267,6 +272,9 @@ html{
       display: flex;
       flex-direction: column;
       margin-top: 8em;
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 10%;
 
       a{
           font-size: 1.8em;
