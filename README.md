@@ -35,10 +35,13 @@ El botón enviar de esta pagina, lleva a un error 404, con el fin de mostrar y a
 
 ## Herramientas usadas
 
-•	Figma para esquematizar la estructura de las diferentes páginas del proyecto
-•	Visual Studio Code como editor de código fuente
-•	Node.js para la implementación de SASS
-•	Github para el almacenamiento del repositorio
+•	Figma para esquematizar la estructura de las diferentes páginas del proyecto.
+
+•	Visual Studio Code como editor de código fuente.
+
+•	Node.js para la implementación de SASS.
+
+•	Github para el almacenamiento del repositorio.
 
 
 
