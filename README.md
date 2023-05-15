@@ -3,7 +3,7 @@
 Este es el proyecto final para el curso de Desarrollo Web dictado por CoderHouse. Habitable es un sitio web ficticio de dos arquitectas apasionadas por el diseño inclusivo y accesible, que se especializan en diseño interior y mobiliario adaptado a personas con diferentes discapacidades. El objetivo del sitio es mostrar los servicios que ofrecen y mostrar sus proyectos, además de demostrar que todos nos merecemos tener un hogar lindo y adecuado a nuestras necesidades. 
 Consta de 5 páginas desarrolladas en lenguaje HTML Y CSS: inicio – servicios – proyectos – quienes somos – contacto.
 
-##Proceso de creación
+## Proceso de creación
 
 Comencé por hacer varios bocetos en papel para tener una idea general de cómo quería que se viera el sitio. Luego, creé un wireframe en baja fidelidad, para empezar a definir la estructura y distribución de los elementos.
 
@@ -35,10 +35,10 @@ El botón enviar de esta pagina, lleva a un error 404, con el fin de mostrar y a
 
 ## Herramientas usadas
 
+•	Figma para esquematizar la estructura de las diferentes páginas del proyecto
 •	Visual Studio Code como editor de código fuente
 •	Node.js para la implementación de SASS
 •	Github para el almacenamiento del repositorio
-•	Figma para esquematizar la estructura de las diferentes páginas del proyecto
 
 
 
